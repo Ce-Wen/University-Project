@@ -1,0 +1,13 @@
+Vitalite :103
+Force : 40
+Dexterite : 20
+Intelligence : 20
+Concentration : 20
+Nom : C
+
+Vitalite :103
+Force : 40
+Dexterite : 20
+Intelligence : 20
+Concentration : 20
+Nom : M
