@@ -1,6 +1,4 @@
                           
-
-
 /**
  *
  * @author B. KHAFIF
@@ -9,6 +7,8 @@
  *
  * reproduction interdite sans l'autorisation de l'auteur
  */
+
+
 package jeu_2048_de_farida.graph;
 import  java.awt.Color;
 import java.awt.Cursor;
@@ -24,7 +24,6 @@ import  java.awt.geom.Rectangle2D;
 import  java.util.Random;
 import javax.swing.JPanel;
 import moteur.*;;
-
 
 public class GrilleTuilesGraphique extends JPanel  {
     /**
