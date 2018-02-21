@@ -4,19 +4,13 @@ import java.awt.*;
 import java.awt.event.*;
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import javax.swing.JPanel;
-
 import moteur.*;
 
 public class PanelCentre extends JPanel implements ColorsInterface{
 	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private int values;
-
 	
 	public PanelCentre(int values){
 		this.values = values;
@@ -94,23 +88,9 @@ public class PanelCentre extends JPanel implements ColorsInterface{
 			
 			int larg = this.getWidth();
 			int haut = this.getHeight();
-			
-			
-			
-			
+	
 			g.setFont(new Font(Font.SANS_SERIF,Font.CENTER_BASELINE,15));
-		
 			g.drawString(""+this.values,larg/2 - (this.getFont().getSize())/2 , haut/2 + (this.getFont().getSize())/2 );
 			
-			/*String nom = "trolDance.gif" ;
-			Image img = Toolkit.getDefaultToolkit().getImage(nom);
-			g.drawImage(img,0,0,larg,haut,this);
-			*/
-
-		
 	}
-	
-	
-
-
 }
